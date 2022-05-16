@@ -1,0 +1,193 @@
+
+* {
+    padding: 0;
+    background: #e5e5e5 ;
+    font-family: 'Inter', sans-serif;
+}    
+
+main{
+    display: flex;
+}
+
+.titulo {
+    position: relative;
+    right: 0;
+    font-size: 30px;
+    text-shadow: 2px 0px #05d883;
+    margin: 100px 40px 40px 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.light-theme {
+    --bg: var(--default);
+    --fontColor: var(--blue);
+    --btnBg: var(--blue);
+    --btnFontColor: var(--white);
+}
+
+.bton:focus { outline-style: none; }
+.boton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    color: var(--btnFontColor);
+    font-weight: bold;
+    background-color: var(--btnBg);
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+#derecha{
+    position: absolute;
+    width: 300px;
+    height: 644px;
+    left: 950px;
+    right: 10%;
+    top: 40px;
+    color: var(--fontColor);
+    background-image: url("../images/1.png");
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.botones {
+    width: 700px;
+    margin-left: 190px;
+}
+
+.buttonEncriptar{
+    width: 150px;
+    height: 60px;
+    margin-top: 100px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.buttonDesencriptar {
+    width: 150px;
+    height: 60px;
+    margin-top: 100px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.limpiar {
+    width: 150px;
+    height: 60px;
+    margin-top: 100px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+#copiar {
+    width: 150px;
+    height: 60px;
+    margin-top: 100px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.logo{
+    position: absolute;
+    left: 2%;
+    right: 30%;
+    top: 4%;
+    bottom: 0%;
+}
+
+#tema{
+    position: absolute;
+    left: 15%;
+    right: 30%;
+    top: 4%;
+    bottom: 0%;
+}
+
+.logo-w{
+    position: absolute;
+    left: 20%;
+    right: 30%;
+    top: 4%;
+    bottom: 0%;
+}
+
+#enter{
+    text-align: center;
+    align-content: center;
+    width: 900px;
+    height: 346px;
+    border: 2px;
+    color: var(--fontColor);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 90px;
+    padding: inherit;
+
+    border-color: white;
+    border-width: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s all;
+}
+#out{
+    text-align: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+    border: 2px;
+    color: var(--blue);
+    background: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#imagen-lupa{
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+}
+p{
+    text-align: center;
+    align-items: center;
+    font-size: small;
+}
